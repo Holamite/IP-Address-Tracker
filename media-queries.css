@@ -1,0 +1,101 @@
+@media (max-width: 81em) {
+  #map {
+    height: 69vh;
+    transform: translateY(-16rem);
+  }
+
+  .head {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .locations {
+    transform: translateY(-80%);
+  }
+  .locations {
+    margin: -4px 16.6rem;
+  }
+
+  .head {
+    height: 35vh;
+  }
+}
+/*****************************/
+/* Below 944px (Tablets)*/
+/*****************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  #map {
+    height: 75vh;
+  }
+
+  #location-container {
+    gap: 1.2rem;
+  }
+  .locations {
+    transform: translateY(-60%);
+  }
+}
+/*****************************/
+/* Below 706px (Smaller Tablets)*/
+/*****************************/
+@media (max-width: 50em) {
+  .locations {
+    transform: translateY(-40%);
+  }
+}
+@media (max-width: 44em) {
+  .locations {
+    margin: 40px 5.6rem;
+  }
+  #map {
+    height: 74vh;
+    transform: translateY(-27rem);
+  }
+
+  .locations {
+    transform: translateY(-90%);
+  }
+}
+/*****************************/
+/* Below 580px (Moblie phone)*/
+/*****************************/
+@media (max-width: 40em) {
+  #location-container {
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .location {
+    border-right: none;
+  }
+  .head {
+    height: 35vh;
+  }
+
+  #map {
+    height: 69vh;
+    transform: translateY(-44rem);
+  }
+
+  .secondary-heading {
+    text-align: center;
+  }
+
+  .input-field {
+    margin: 0 4.8rem;
+  }
+
+  .locations {
+    transform: translateY(-60%);
+  }
+}
